@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    font-family: 'Quicksand', sans-serif;
+    position: relative;
+    padding: 2em;
+}
+
+h2 {
+    color: #fff;
+    text-shadow: 0 0 5px rgb(0, 0, 0);
+    padding: 2em;
+    padding-bottom: 1.5em;
+}
+
+h1 {
+    color: #fff;
+    text-shadow: 0 0 5px rgb(0, 0, 0);
+    padding: 0.8em;
+}
+
+
+input[type="color"] {
+    width: 235px;
+    height: 50px;
+    border: none;
+    outline-style: none;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 10px 15px #111;
+    position: relative;
+    left: 10% !important;
+    /* border-radius: 50%; */
+    /* padding: 2px;
+    margin: 5px; */
+}
+
+/* .picker {
+
+} */
+
+.container{
+    padding: 2em;
+}
+
+span {
+    color: #fff;
+    display: block;
+    font-size: 50px;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 20px;
+    text-shadow: 0 5px 10px #000;
+}
+
+.colorBtn {
+    padding: 10px 20px;
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    text-transform: capitalize;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    box-shadow: 0 10px 15px #111;
+    text-shadow: 0 5px 10px #000;
+    font-size: 18px;
+}
