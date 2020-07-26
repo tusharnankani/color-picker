@@ -1,4 +1,4 @@
-![visitors](https://visitor-badge.glitch.me/badge?page_id=https://github.com/tusharnankani/color-picker)
+
 ## Color Picker
 ### A Simple Color Picker/Generator.
 
